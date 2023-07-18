@@ -48,13 +48,13 @@ struct WelcomeScreen: View {
               
               
           }
-          NavigationLink(destination: Text("You've arrived to the Second View ")) {
+          NavigationLink(destination: Skills()){
             Image("studyHabitsIcon")
                   .resizable()
                   .aspectRatio(contentMode: .fit)
                   .frame(height : 70)
           }
-          NavigationLink(destination: Text("You've arrived to the Second View ")) {
+          NavigationLink(destination: TimerApp()) {
             Image("timerIcon")
                   .resizable()
                   .aspectRatio(contentMode: .fit)
