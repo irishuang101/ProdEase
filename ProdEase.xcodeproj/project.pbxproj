@@ -19,6 +19,7 @@
 		BD8607DB2A672FEE00CCB34E /* Spacedrep.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8607DA2A672FEE00CCB34E /* Spacedrep.swift */; };
 		BD8607DD2A67300000CCB34E /* blurtingMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8607DC2A67300000CCB34E /* blurtingMethod.swift */; };
 		BD8607DF2A67301500CCB34E /* TimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8607DE2A67301500CCB34E /* TimerApp.swift */; };
+		BDA580262A6746F8000525D9 /* pomoTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA580252A6746F8000525D9 /* pomoTasks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		BD8607DA2A672FEE00CCB34E /* Spacedrep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacedrep.swift; sourceTree = "<group>"; };
 		BD8607DC2A67300000CCB34E /* blurtingMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blurtingMethod.swift; sourceTree = "<group>"; };
 		BD8607DE2A67301500CCB34E /* TimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerApp.swift; sourceTree = "<group>"; };
+		BDA580252A6746F8000525D9 /* pomoTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pomoTasks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				3F37899C2A673C9E00B9B8B1 /* AboutUs.swift */,
 				BD8607D42A672E1300CCB34E /* Skills.swift */,
 				BD8607D62A672EE100CCB34E /* Pomo.swift */,
+				BDA580252A6746F8000525D9 /* pomoTasks.swift */,
 				BD8607D82A672FDB00CCB34E /* Feynman.swift */,
 				BD8607DA2A672FEE00CCB34E /* Spacedrep.swift */,
 				BD8607DC2A67300000CCB34E /* blurtingMethod.swift */,
@@ -167,6 +170,7 @@
 				3F37899B2A67360100B9B8B1 /* WelcomeScreen.swift in Sources */,
 				BD8607DF2A67301500CCB34E /* TimerApp.swift in Sources */,
 				BD8607C72A672C8E00CCB34E /* ProdEaseApp.swift in Sources */,
+				BDA580262A6746F8000525D9 /* pomoTasks.swift in Sources */,
 				BD8607D52A672E1300CCB34E /* Skills.swift in Sources */,
 				3F37899D2A673C9E00B9B8B1 /* AboutUs.swift in Sources */,
 				BD8607DB2A672FEE00CCB34E /* Spacedrep.swift in Sources */,

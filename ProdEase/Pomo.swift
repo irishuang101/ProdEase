@@ -9,9 +9,17 @@ import SwiftUI
 
 struct Pomo: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Image("pomoPage")
+            NavigationLink(destination: pomoTasks()) {
+                Text("Try the Method!")
+            }
+            }
+        }
     }
-}
+
+
+
 
 struct Pomo_Previews: PreviewProvider {
     static var previews: some View {
