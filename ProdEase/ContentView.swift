@@ -28,8 +28,10 @@ struct ContentView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(height : 200)
-            Text("Tap anywhere to begin")
-                
+            
+        NavigationLink(destination: Skills()) {
+               Text("Skills")
+            }
 
            
             
