@@ -29,7 +29,7 @@ struct ContentView: View {
                     .aspectRatio(contentMode: .fit)
                     .frame(height : 200)
                 
-                NavigationLink(destination: Skills()) {
+                NavigationLink(destination: WelcomeScreen()) {
                     Text("Touch here to begin")
                 }
                 
