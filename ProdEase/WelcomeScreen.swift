@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-struct ContentView: View {
+struct WelcomeScreen: View {
   var body: some View {
     NavigationStack{
       VStack{
@@ -14,34 +14,35 @@ struct ContentView: View {
           .font(.largeTitle)
           .multilineTextAlignment(.center)
         HStack{
-          NavigationLink(destination: Text("You've arrived to the Second View :confetti_ball:")) {
+          NavigationLink(destination: Text("You've arrived to the Second View ")) {
             Image("timer")
           }
-          NavigationLink(destination: Text("You've arrived to the Second View :confetti_ball:")) {
+          NavigationLink(destination: Text("You've arrived to the Second View ")) {
             Image("toDoList")
           }
         }
         HStack{
-          NavigationLink(destination: Text("You've arrived to the Second View :confetti_ball:")) {
+          NavigationLink(destination: Text("You've arrived to the Second View ")) {
             Image("studyHabits")
           }
-          NavigationLink(destination: Text("You've arrived to the Second View :confetti_ball:")) {
+          NavigationLink(destination: Text("You've arrived to the Second View ")) {
             Image("aboutUs")
           }
         }
         HStack{
-          NavigationLink(destination: Text("You've arrived to the Second View :confetti_ball:")) {
+          NavigationLink(destination: Text("You've arrived to the Second View ")) {
             Image("home")
               .resizable()
               
+              
           }
-          NavigationLink(destination: Text("You've arrived to the Second View :confetti_ball:")) {
+          NavigationLink(destination: Text("You've arrived to the Second View ")) {
             Image("studyHabitsIcon")
           }
-          NavigationLink(destination: Text("You've arrived to the Second View :confetti_ball:")) {
+          NavigationLink(destination: Text("You've arrived to the Second View ")) {
             Image("timerIcon")
           }
-          NavigationLink(destination: Text("You've arrived to the Second View :confetti_ball:")) {
+          NavigationLink(destination: Text("You've arrived to the Second View ")) {
             Image("toDoListIcon")
           }
         }//Hstack
@@ -49,9 +50,9 @@ struct ContentView: View {
     }
   }
 }
-struct ContentView_Previews: PreviewProvider {
+struct WelcomeScreen_Previews: PreviewProvider {
   static var previews: some View {
-    ContentView()
+    WelcomeScreen()
   }
 }
 
