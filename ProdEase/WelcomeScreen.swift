@@ -20,8 +20,11 @@ struct WelcomeScreen: View {
           NavigationLink(destination: TimerApp()) {
             Image("timer")
           }
+          }
           NavigationLink(destination: Text("You've arrived to the Second View ")) {
             Image("toDoList")
+                  
+          }
           }
         }
         HStack{
@@ -68,8 +71,7 @@ struct WelcomeScreen: View {
         }//Hstack
       }
     }
-  }
-}
+  
 struct WelcomeScreen_Previews: PreviewProvider {
   static var previews: some View {
     WelcomeScreen()
