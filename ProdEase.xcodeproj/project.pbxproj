@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F37899B2A67360100B9B8B1 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F37899A2A67360100B9B8B1 /* WelcomeScreen.swift */; };
+		3F37899D2A673C9E00B9B8B1 /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F37899C2A673C9E00B9B8B1 /* AboutUs.swift */; };
 		BD8607C72A672C8E00CCB34E /* ProdEaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8607C62A672C8E00CCB34E /* ProdEaseApp.swift */; };
 		BD8607C92A672C8E00CCB34E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8607C82A672C8E00CCB34E /* ContentView.swift */; };
 		BD8607CB2A672C9000CCB34E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8607CA2A672C9000CCB34E /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		3F37899A2A67360100B9B8B1 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		3F37899C2A673C9E00B9B8B1 /* AboutUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
 		BD8607C32A672C8E00CCB34E /* ProdEase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProdEase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD8607C62A672C8E00CCB34E /* ProdEaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdEaseApp.swift; sourceTree = "<group>"; };
 		BD8607C82A672C8E00CCB34E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				BD8607C62A672C8E00CCB34E /* ProdEaseApp.swift */,
 				BD8607C82A672C8E00CCB34E /* ContentView.swift */,
 				3F37899A2A67360100B9B8B1 /* WelcomeScreen.swift */,
+				3F37899C2A673C9E00B9B8B1 /* AboutUs.swift */,
 				BD8607D42A672E1300CCB34E /* Skills.swift */,
 				BD8607D62A672EE100CCB34E /* Pomo.swift */,
 				BD8607D82A672FDB00CCB34E /* Feynman.swift */,
@@ -165,6 +168,7 @@
 				BD8607DF2A67301500CCB34E /* TimerApp.swift in Sources */,
 				BD8607C72A672C8E00CCB34E /* ProdEaseApp.swift in Sources */,
 				BD8607D52A672E1300CCB34E /* Skills.swift in Sources */,
+				3F37899D2A673C9E00B9B8B1 /* AboutUs.swift in Sources */,
 				BD8607DB2A672FEE00CCB34E /* Spacedrep.swift in Sources */,
 				BD8607DD2A67300000CCB34E /* blurtingMethod.swift in Sources */,
 			);
