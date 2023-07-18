@@ -57,8 +57,6 @@ struct WelcomeScreen: View {
                   .aspectRatio(contentMode: .fit)
                   .frame(height : 70)
               
-//              Spacer()
-//                  .frame(height : 1)
           }
           NavigationLink(destination: Text("You've arrived to the Second View ")) {
             Image("toDoListIcon")
