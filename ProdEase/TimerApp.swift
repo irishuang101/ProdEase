@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct TimerApp: View {
-    @State private var timeRemaining = 10
+    @State private var timeRemaining = 60
     @State private var timerIsRunning = false
     var body: some View {
         VStack {
