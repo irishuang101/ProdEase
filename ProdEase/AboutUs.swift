@@ -17,7 +17,7 @@ struct AboutUs: View {
             Text("About Us")
                 .font(.largeTitle)
                 .fontWeight(.bold)
-                .multilineTextAlignment(.trailing)
+                .multilineTextAlignment(.leading)
         }
     }
 }
