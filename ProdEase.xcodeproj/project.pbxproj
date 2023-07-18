@@ -11,6 +11,12 @@
 		BD8607C92A672C8E00CCB34E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8607C82A672C8E00CCB34E /* ContentView.swift */; };
 		BD8607CB2A672C9000CCB34E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8607CA2A672C9000CCB34E /* Assets.xcassets */; };
 		BD8607CE2A672C9000CCB34E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8607CD2A672C9000CCB34E /* Preview Assets.xcassets */; };
+		BD8607D52A672E1300CCB34E /* Skills.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8607D42A672E1300CCB34E /* Skills.swift */; };
+		BD8607D72A672EE100CCB34E /* Pomo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8607D62A672EE100CCB34E /* Pomo.swift */; };
+		BD8607D92A672FDB00CCB34E /* Feynman.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8607D82A672FDB00CCB34E /* Feynman.swift */; };
+		BD8607DB2A672FEE00CCB34E /* Spacedrep.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8607DA2A672FEE00CCB34E /* Spacedrep.swift */; };
+		BD8607DD2A67300000CCB34E /* blurtingMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8607DC2A67300000CCB34E /* blurtingMethod.swift */; };
+		BD8607DF2A67301500CCB34E /* TimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8607DE2A67301500CCB34E /* TimerApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		BD8607C82A672C8E00CCB34E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD8607CA2A672C9000CCB34E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD8607CD2A672C9000CCB34E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD8607D42A672E1300CCB34E /* Skills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skills.swift; sourceTree = "<group>"; };
+		BD8607D62A672EE100CCB34E /* Pomo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pomo.swift; sourceTree = "<group>"; };
+		BD8607D82A672FDB00CCB34E /* Feynman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feynman.swift; sourceTree = "<group>"; };
+		BD8607DA2A672FEE00CCB34E /* Spacedrep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacedrep.swift; sourceTree = "<group>"; };
+		BD8607DC2A67300000CCB34E /* blurtingMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blurtingMethod.swift; sourceTree = "<group>"; };
+		BD8607DE2A67301500CCB34E /* TimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				BD8607C62A672C8E00CCB34E /* ProdEaseApp.swift */,
 				BD8607C82A672C8E00CCB34E /* ContentView.swift */,
+				BD8607D42A672E1300CCB34E /* Skills.swift */,
+				BD8607D62A672EE100CCB34E /* Pomo.swift */,
+				BD8607D82A672FDB00CCB34E /* Feynman.swift */,
+				BD8607DA2A672FEE00CCB34E /* Spacedrep.swift */,
+				BD8607DC2A67300000CCB34E /* blurtingMethod.swift */,
+				BD8607DE2A67301500CCB34E /* TimerApp.swift */,
 				BD8607CA2A672C9000CCB34E /* Assets.xcassets */,
 				BD8607CC2A672C9000CCB34E /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD8607D72A672EE100CCB34E /* Pomo.swift in Sources */,
+				BD8607D92A672FDB00CCB34E /* Feynman.swift in Sources */,
 				BD8607C92A672C8E00CCB34E /* ContentView.swift in Sources */,
+				BD8607DF2A67301500CCB34E /* TimerApp.swift in Sources */,
 				BD8607C72A672C8E00CCB34E /* ProdEaseApp.swift in Sources */,
+				BD8607D52A672E1300CCB34E /* Skills.swift in Sources */,
+				BD8607DB2A672FEE00CCB34E /* Spacedrep.swift in Sources */,
+				BD8607DD2A67300000CCB34E /* blurtingMethod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
