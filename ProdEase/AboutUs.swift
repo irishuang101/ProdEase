@@ -18,6 +18,12 @@ struct AboutUs: View {
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 .multilineTextAlignment(.leading)
+            Spacer()
+                .frame(height : 10)
+            Text("Our mission is to help students, including ourselves, with studying and absorbing information presented in classrooms effectively. It is so important to encourage students to learn now more than ever.\n\n\nThank you so much for downloading our app! We hope you find it as special as we do! \n\n-The creators")
+                .multilineTextAlignment(.leading)
+                .padding(.leading)
+                .padding(.trailing)
         }
     }
 }
