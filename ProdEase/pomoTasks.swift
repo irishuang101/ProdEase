@@ -11,10 +11,12 @@ struct pomoTasks: View {
     var body: some View {
         NavigationStack{
             VStack{
-                Image("PomoTask")
-                    .resizable(resizingMode: .stretch)
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width:400)
+                ZStack{
+                    Image("PomoTask")
+                        .resizable(resizingMode: .stretch)
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width:400)
+                }
         }
         }
         
