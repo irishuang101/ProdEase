@@ -20,11 +20,13 @@ struct WelcomeScreen: View {
           NavigationLink(destination: TimerApp()) {
             Image("timer")
           }
-          }
+          
           NavigationLink(destination: Text("You've arrived to the Second View ")) {
             Image("toDoList")
                   
           }
+            
+        }//hstack
           }
         }
         HStack{
