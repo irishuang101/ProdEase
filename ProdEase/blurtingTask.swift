@@ -1,5 +1,5 @@
 //
-//  Spacedtask.swift
+//  blurtingTask.swift
 //  ProdEase
 //
 //  Created by Scholar on 7/19/23.
@@ -7,18 +7,18 @@
 
 import SwiftUI
 
-struct Spacedtask: View {
+struct blurtingTask: View {
     var body: some View {
         NavigationStack{
             VStack{
-                Image("SpacedTask")
+                Image("BlurtingTask")
             }
         }
     }
 }
 
-struct Spacedtask_Previews: PreviewProvider {
+struct blurtingTask_Previews: PreviewProvider {
     static var previews: some View {
-        Spacedtask()
+        blurtingTask()
     }
 }

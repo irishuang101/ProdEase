@@ -12,15 +12,16 @@ struct Spacedrep: View {
         NavigationStack{
             VStack{
                 Image("SpacedRep")
-                NavigationLink(destination: pomoTasks()) {
+                NavigationLink(destination: Spacedtask()) {
                     Text("Try the Method!")
+                }
             }
         }
     }
-}
-
-struct Spacedrep_Previews: PreviewProvider {
-    static var previews: some View {
-        Spacedrep()
+    
+    struct Spacedrep_Previews: PreviewProvider {
+        static var previews: some View {
+            Spacedrep()
+        }
     }
 }

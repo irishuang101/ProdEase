@@ -9,12 +9,19 @@ import SwiftUI
 
 struct blurtingMethod: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack{
+            VStack{
+                Image("Blurting")
+                NavigationLink(destination: blurtingTask()) {
+                    Text("Try the Method!")
+                }
+            }
+        }
     }
-}
-
-struct blurtingMethod_Previews: PreviewProvider {
-    static var previews: some View {
-        blurtingMethod()
+    
+    struct blurtingMethod_Previews: PreviewProvider {
+        static var previews: some View {
+            blurtingMethod()
+        }
     }
 }

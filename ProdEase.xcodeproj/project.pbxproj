@@ -21,6 +21,7 @@
 		BD8607DF2A67301500CCB34E /* TimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8607DE2A67301500CCB34E /* TimerApp.swift */; };
 		BD9B1FA82A6865EE0073DF9C /* FeyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9B1FA72A6865EE0073DF9C /* FeyTask.swift */; };
 		BD9B1FAA2A6867490073DF9C /* Spacedtask.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9B1FA92A6867490073DF9C /* Spacedtask.swift */; };
+		BD9B1FAC2A6868790073DF9C /* blurtingTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9B1FAB2A6868790073DF9C /* blurtingTask.swift */; };
 		BDA580262A6746F8000525D9 /* pomoTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA580252A6746F8000525D9 /* pomoTasks.swift */; };
 		BDDD2A1F2A685D4D00883892 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDD2A1E2A685D4D00883892 /* ContentView2.swift */; };
 		BDDD2A212A685D7B00883892 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDD2A202A685D7B00883892 /* ToDoItem.swift */; };
@@ -45,6 +46,7 @@
 		BD8607DE2A67301500CCB34E /* TimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerApp.swift; sourceTree = "<group>"; };
 		BD9B1FA72A6865EE0073DF9C /* FeyTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeyTask.swift; sourceTree = "<group>"; };
 		BD9B1FA92A6867490073DF9C /* Spacedtask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacedtask.swift; sourceTree = "<group>"; };
+		BD9B1FAB2A6868790073DF9C /* blurtingTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blurtingTask.swift; sourceTree = "<group>"; };
 		BDA580252A6746F8000525D9 /* pomoTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pomoTasks.swift; sourceTree = "<group>"; };
 		BDDD2A1E2A685D4D00883892 /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
 		BDDD2A202A685D7B00883892 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				BD8607DA2A672FEE00CCB34E /* Spacedrep.swift */,
 				BD9B1FA92A6867490073DF9C /* Spacedtask.swift */,
 				BD8607DC2A67300000CCB34E /* blurtingMethod.swift */,
+				BD9B1FAB2A6868790073DF9C /* blurtingTask.swift */,
 				BD8607DE2A67301500CCB34E /* TimerApp.swift */,
 				BD8607CA2A672C9000CCB34E /* Assets.xcassets */,
 				BD8607CC2A672C9000CCB34E /* Preview Content */,
@@ -199,6 +202,7 @@
 				3F37899D2A673C9E00B9B8B1 /* AboutUs.swift in Sources */,
 				BDDD2A282A685E1100883892 /* Persistence.swift in Sources */,
 				BDDD2A232A685DA500883892 /* NewToDoView.swift in Sources */,
+				BD9B1FAC2A6868790073DF9C /* blurtingTask.swift in Sources */,
 				BDDD2A212A685D7B00883892 /* ToDoItem.swift in Sources */,
 				BDDD2A1F2A685D4D00883892 /* ContentView2.swift in Sources */,
 				BD8607DB2A672FEE00CCB34E /* Spacedrep.swift in Sources */,
