@@ -33,7 +33,7 @@ struct WelcomeScreen: View {
               NavigationLink(destination: Skills()) {
                   Image("studyHabits")
               }
-              NavigationLink(destination: Text("You've arrived to the Second View ")) {
+              NavigationLink(destination:AboutUs()){
                   Image("aboutUs")
               }
           }
@@ -42,7 +42,7 @@ struct WelcomeScreen: View {
               .frame(height : 110)
           
           HStack{
-              NavigationLink(destination: Text("You've arrived to the Second View ")) {
+              NavigationLink(destination:WelcomeScreen()) {
                   Image("home")
                       .resizable()
                       .aspectRatio(contentMode: .fit)
