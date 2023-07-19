@@ -21,7 +21,7 @@ struct WelcomeScreen: View {
             Image("timer")
           }
           
-          NavigationLink(destination: Text("You've arrived to the Second View ")) {
+          NavigationLink(destination: ContentView2()) {
             Image("toDoList")
                   
           }
