@@ -19,6 +19,7 @@
 		BD8607DB2A672FEE00CCB34E /* Spacedrep.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8607DA2A672FEE00CCB34E /* Spacedrep.swift */; };
 		BD8607DD2A67300000CCB34E /* blurtingMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8607DC2A67300000CCB34E /* blurtingMethod.swift */; };
 		BD8607DF2A67301500CCB34E /* TimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8607DE2A67301500CCB34E /* TimerApp.swift */; };
+		BD90D5BE2A68834300498A45 /* StopwatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD90D5BD2A68834300498A45 /* StopwatchApp.swift */; };
 		BD9B1FA82A6865EE0073DF9C /* FeyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9B1FA72A6865EE0073DF9C /* FeyTask.swift */; };
 		BD9B1FAA2A6867490073DF9C /* Spacedtask.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9B1FA92A6867490073DF9C /* Spacedtask.swift */; };
 		BD9B1FAC2A6868790073DF9C /* blurtingTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9B1FAB2A6868790073DF9C /* blurtingTask.swift */; };
@@ -44,6 +45,7 @@
 		BD8607DA2A672FEE00CCB34E /* Spacedrep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacedrep.swift; sourceTree = "<group>"; };
 		BD8607DC2A67300000CCB34E /* blurtingMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blurtingMethod.swift; sourceTree = "<group>"; };
 		BD8607DE2A67301500CCB34E /* TimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerApp.swift; sourceTree = "<group>"; };
+		BD90D5BD2A68834300498A45 /* StopwatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchApp.swift; sourceTree = "<group>"; };
 		BD9B1FA72A6865EE0073DF9C /* FeyTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeyTask.swift; sourceTree = "<group>"; };
 		BD9B1FA92A6867490073DF9C /* Spacedtask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacedtask.swift; sourceTree = "<group>"; };
 		BD9B1FAB2A6868790073DF9C /* blurtingTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blurtingTask.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				BD8607DC2A67300000CCB34E /* blurtingMethod.swift */,
 				BD9B1FAB2A6868790073DF9C /* blurtingTask.swift */,
 				BD8607DE2A67301500CCB34E /* TimerApp.swift */,
+				BD90D5BD2A68834300498A45 /* StopwatchApp.swift */,
 				BD8607CA2A672C9000CCB34E /* Assets.xcassets */,
 				BD8607CC2A672C9000CCB34E /* Preview Content */,
 				BDDD2A292A685E5400883892 /* ProdEase.xcdatamodeld */,
@@ -191,6 +194,7 @@
 				BDDD2A2B2A685E5400883892 /* ProdEase.xcdatamodeld in Sources */,
 				BD8607D72A672EE100CCB34E /* Pomo.swift in Sources */,
 				BD8607D92A672FDB00CCB34E /* Feynman.swift in Sources */,
+				BD90D5BE2A68834300498A45 /* StopwatchApp.swift in Sources */,
 				BD8607C92A672C8E00CCB34E /* ContentView.swift in Sources */,
 				3F37899B2A67360100B9B8B1 /* WelcomeScreen.swift in Sources */,
 				BD8607DF2A67301500CCB34E /* TimerApp.swift in Sources */,
