@@ -7,7 +7,7 @@
 
 import SwiftUI
 struct TimerApp: View {
-  @State private var timeRemaining = 60
+  @State private var timeRemaining = 120
   @State private var timerIsRunning = false
   let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
   var body: some View {
@@ -25,7 +25,7 @@ struct TimerApp: View {
           timerIsRunning = true
         }
         Button("Reset"){
-          timeRemaining = 60
+          timeRemaining = 120
         }
       }
     }
