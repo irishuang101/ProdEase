@@ -12,6 +12,9 @@ struct FeyTask: View {
         NavigationStack{
             VStack{
                 Image("FeyTask")
+                    .resizable(resizingMode: .stretch)
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width:400)
             }
         }
     }

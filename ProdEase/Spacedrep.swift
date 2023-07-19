@@ -12,6 +12,9 @@ struct Spacedrep: View {
         NavigationStack{
             VStack{
                 Image("SpacedRep")
+                    .resizable(resizingMode: .stretch)
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width:400)
                 NavigationLink(destination: Spacedtask()) {
                     Text("Try the Method!")
                 }

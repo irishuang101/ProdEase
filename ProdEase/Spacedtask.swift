@@ -12,6 +12,9 @@ struct Spacedtask: View {
         NavigationStack{
             VStack{
                 Image("SpacedTask")
+                    .resizable(resizingMode: .stretch)
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width:400)
             }
         }
     }

@@ -12,6 +12,9 @@ struct pomoTasks: View {
         NavigationStack{
             VStack{
                 Image("PomoTask")
+                    .resizable(resizingMode: .stretch)
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width:400)
         }
         }
         

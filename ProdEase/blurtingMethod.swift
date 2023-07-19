@@ -11,7 +11,10 @@ struct blurtingMethod: View {
     var body: some View {
         NavigationStack{
             VStack{
-                Image("Blurting")
+                Image("Blurting1")
+                    .resizable(resizingMode: .stretch)
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width:400)
                 NavigationLink(destination: blurtingTask()) {
                     Text("Try the Method!")
                 }

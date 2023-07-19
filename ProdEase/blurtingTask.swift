@@ -12,6 +12,9 @@ struct blurtingTask: View {
         NavigationStack{
             VStack{
                 Image("BlurtingTask")
+                    .resizable(resizingMode: .stretch)
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width:400)
             }
         }
     }
