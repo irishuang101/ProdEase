@@ -17,7 +17,7 @@ struct WelcomeScreen: View {
                   .multilineTextAlignment(.center)
               
               HStack{
-                  NavigationLink(destination: TimerApp()) {
+                  NavigationLink(destination: StopwatchApp()) {
                       Image("timer")
                   }
                   
@@ -56,7 +56,7 @@ struct WelcomeScreen: View {
                       .aspectRatio(contentMode: .fit)
                       .frame(height : 70)
               }
-              NavigationLink(destination: TimerApp()) {
+              NavigationLink(destination: StopwatchApp()) {
                   Image("timerIcon")
                       .resizable()
                       .aspectRatio(contentMode: .fit)
