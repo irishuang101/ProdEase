@@ -12,8 +12,8 @@ struct Feynman: View {
         NavigationStack{
             VStack{
                 Image("Feynman")
-                NavigationLink(destination: WelcomeScreen()) {
-                    Text("Home")
+                NavigationLink(destination: FeyTask()) {
+                    Text("Try the Method!")
                 }
         }
        
