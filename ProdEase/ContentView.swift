@@ -12,7 +12,7 @@ struct ContentView: View {
         NavigationStack{
             VStack {
                 Spacer()
-                    .frame(height: 200)
+                    .frame(height: 170)
                 
                 Text("ProdEase")
                     .font(.largeTitle)
@@ -27,10 +27,10 @@ struct ContentView: View {
                 Image("logo")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(height : 200)
+                    .frame(height : 230)
                 
                 NavigationLink(destination: WelcomeScreen()) {
-                    Text("Touch here to begin")
+                    Text("Tap here to begin")
                 }
                 
                 
