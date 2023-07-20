@@ -13,6 +13,10 @@ struct TimerApp: View {
         var body: some View {
             NavigationStack{
                 VStack {
+                    Image("timerpic")
+                        .resizable()
+                        .aspectRatio(contentMode:.fit)
+                    
                     Text("Pomodoro Timer")
                     Text(timeString(timeRemaining))
                         .font(.largeTitle)
