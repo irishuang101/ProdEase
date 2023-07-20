@@ -34,7 +34,7 @@ struct Skills: View {
                         }
                         Text("Spaced Repetition")
                     } // end of spaced repetition
-
+                    
                 }
             } // end of Vstack 1
             VStack {
@@ -64,17 +64,21 @@ struct Skills: View {
             .toolbar{
                 ToolbarItem(placement: .bottomBar){
                     NavigationLink(destination: ContentView()) {
-                        Text("Home")
-
+                        Image("home")
+                        NavigationLink(destination: StopwatchApp()) {
+                            Image("timerIcon")
+                            
+                        }
                     }
                 }
             }
         }
     }
-}
-
-struct Skills_Previews: PreviewProvider {
-    static var previews: some View {
-        Skills()
+    
+    struct Skills_Previews: PreviewProvider {
+        static var previews: some View {
+            Skills()
+        }
     }
+}
 }
