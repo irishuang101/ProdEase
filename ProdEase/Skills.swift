@@ -61,34 +61,40 @@ struct Skills: View {
                 }
                 Spacer()
             } // end of Vstack 2
-            .toolbar{
-                ToolbarItem(placement: .bottomBar){
-                    NavigationLink(destination: ContentView()) {
-                        Image("home")
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                        .frame(height : 70)}
-                    NavigationLink(destination: Skills()) {
-                        Image("studyHabitsIcon")
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                        .frame(height : 70)}
-                    NavigationLink(destination: StopwatchApp()) {
-                        Image("timerIcon")
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                        .frame(height : 70)}
-                    NavigationLink(destination: WelcomeScreen()) {
-                        Image("toDoListIcon")
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                        .frame(height : 70)}
-                            
-                            }
-                        }
-                    }
+            
+            HStack{
+                NavigationLink(destination:WelcomeScreen()) {
+                    Image("home")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(height : 70)
+                    
+                    
+                }
+                NavigationLink(destination: Skills()){
+                    Image("studyHabitsIcon")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(height : 70)
+                }
+                NavigationLink(destination: StopwatchApp()) {
+                    Image("timerIcon")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(height : 70)
+                    
+                }
+                NavigationLink(destination: ContentView2()) {
+                    Image("toDoListIcon")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(height : 70)
+                    
                 }
             }
+        }
+    }
+}
         
         struct Skills_Previews: PreviewProvider {
             static var previews: some View {

@@ -44,7 +44,7 @@ struct StopwatchApp: View {
                 NavigationLink(destination: TimerApp()){
                     Text("Break timer")
                 }
-            }
+            } //End of VStack
         }
     }
     private func startTimer() {
