@@ -13,39 +13,36 @@ struct StopwatchApp: View {
     @State private var timer: Timer?
     
     var body: some View {
-        NavigationStack{
-            VStack {
-                Text("\(timeElapsed.formattedTime())")
-                    .font(.largeTitle)
+        
+        VStack {
+            Text("\(timeElapsed.formattedTime())")
+                .font(.largeTitle)
                 
-                HStack {
-                    Button(action: {
-                        startTimer()
-                    }) {
-                        Text("Start")
-                    }
-                    .disabled(timerIsActive)
+            HStack {
+                Button(action: {
+                    startTimer()
+                }) {
+                    Text("Start")
+                }
+                .disabled(timerIsActive)
                     
-                    Button(action: {
-                        stopTimer()
-                    }) {
-                        Text("Stop")
-                    }
-                    .disabled(!timerIsActive)
+                Button(action: {
+                    stopTimer()
+                }) {
+                    Text("Stop")
+                }
+                .disabled(!timerIsActive)
                     //
-                    Button(action: {
-                        resetTimer()
-                    }) {
-                        Text("Reset")
-                    }
-                    .disabled(timeElapsed == 0)
+                Button(action: {
+                    resetTimer()
+                }) {
+                    Text("Reset")
                 }
+                .disabled(timeElapsed == 0)
+                }//Hstack
                 
-                NavigationLink(destination: TimerApp()){
-                    Text("Break timer")
-                }
-            } //End of VStack
-        }
+                
+        } //End of VStack
     }
     private func startTimer() {
         timerIsActive = true
