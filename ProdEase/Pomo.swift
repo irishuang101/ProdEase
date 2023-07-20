@@ -16,7 +16,7 @@ struct Pomo: View {
                     .aspectRatio(contentMode: .fit)
                     .frame(width:400)
                 NavigationLink(destination: pomoTasks()) {
-                    Text("Try the Method!")
+                    Text("Try the Method")
                         
         }
         
