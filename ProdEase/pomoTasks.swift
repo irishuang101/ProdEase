@@ -16,10 +16,12 @@ struct pomoTasks: View {
                         .resizable(resizingMode: .stretch)
                         .aspectRatio(contentMode: .fit)
                         .frame(width:400)
+                    NavigationLink(destination: TimerApp()) {
+                        Text("Click here to go to the timer")
+                    }
                 }
+            }
         }
-        }
-        
     }
 }
 
