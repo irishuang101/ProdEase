@@ -65,20 +65,34 @@ struct Skills: View {
                 ToolbarItem(placement: .bottomBar){
                     NavigationLink(destination: ContentView()) {
                         Image("home")
-                        NavigationLink(destination: StopwatchApp()) {
-                            Image("timerIcon")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                        .frame(height : 70)}
+                    NavigationLink(destination: Skills()) {
+                        Image("studyHabitsIcon")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                        .frame(height : 70)}
+                    NavigationLink(destination: StopwatchApp()) {
+                        Image("timerIcon")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                        .frame(height : 70)}
+                    NavigationLink(destination: WelcomeScreen()) {
+                        Image("toDoListIcon")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                        .frame(height : 70)}
                             
+                            }
                         }
                     }
                 }
             }
+        
+        struct Skills_Previews: PreviewProvider {
+            static var previews: some View {
+                Skills()
+            }
         }
-    }
-    
-    struct Skills_Previews: PreviewProvider {
-        static var previews: some View {
-            Skills()
-        }
-    }
-}
-}
+  
